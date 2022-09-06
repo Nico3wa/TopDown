@@ -4621,7 +4621,20 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: 1, y: -3}
+        - {x: 1, y: -4}
+        - {x: -1, y: -4}
+        - {x: -1, y: -3}
+        - {x: -6, y: -3}
+        - {x: -6, y: 4}
+        - {x: 0, y: 4}
+        - {x: 6, y: 4}
+        - {x: 6, y: -3}
+      - - {x: -6, y: -3}
+        - {x: -6, y: -3}
+        - {x: -6, y: -3}
+        - {x: -6, y: -3}
       tessellationDetail: 0
       bones: []
       spriteID: fd17e362511dd474096f3d502e97605f
@@ -4767,7 +4780,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Environment_215: 308162771
+      Environment_204: 1784293986
       Environment_76: 1448489304
       Environment_251: 1606610691
       Environment_27: -1956955935
@@ -4800,8 +4813,8 @@ TextureImporter:
       Environment_259: 2064725220
       Environment_35: -481462533
       Environment_39: 803907493
-      Environment_42: -1470220117
       Environment_33: 597942379
+      Environment_42: -1470220117
       Environment_227: 1704445811
       Environment_133: -1687846691
       Environment_128: -1026596882
@@ -5035,8 +5048,8 @@ TextureImporter:
       Environment_18: -1011644417
       Environment_77: 1076264622
       Environment_234: -885180662
+      Environment_215: 308162771
       Environment_10: 874441089
-      Environment_204: 1784293986
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
